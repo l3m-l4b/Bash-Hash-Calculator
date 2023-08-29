@@ -12,7 +12,7 @@ calculate_hash() {
     fi
 }
 
-# Habilitar autocompletación para la ruta del archivo y obtener solo el nombre del archivo
+# Habilitar autocompletar para la ruta del archivo y obtener solo el nombre del archivo
 read -e -i "" -p "Ingresa la ruta del archivo: " file_path
 file_name=$(basename "$file_path")
 
